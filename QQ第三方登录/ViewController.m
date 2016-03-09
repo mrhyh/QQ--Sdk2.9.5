@@ -92,6 +92,8 @@
     [_tencentOAuth authorize:permissions inSafari:NO];
     
 }
+
+#pragma mark 
 - (void)tencentDidLogin
 {
     //    登录完成
@@ -108,7 +110,7 @@
     }
     else
     {
-        //        "登录不成功 没有获取accesstoken";
+        // 登录不成功 没有获取accesstoken";
     }
 }
 
